@@ -15,8 +15,6 @@ function Nav() {
             initialRouteName="Home"
             screenOptions={{
                 tabBarActiveTintColor: '#FFA301',
-            }}
-            tabBarOptions={{
                 showLabel: false
             }}
         >
