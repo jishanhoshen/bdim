@@ -69,10 +69,48 @@ export const styles = StyleSheet.create({
         color: "#121212",
         fontSize: 22,
     },
+    home_categories:{
+        color: "#121212",
+        fontSize: 20,
+        paddingVertical: 5,
+        paddingHorizontal: 20,
+    },
+    home_catery_group:{
+        marginBottom: 30,
+    },
+    home_catery_group_row:{
+        flexDirection: 'row'
+    },
+    category_box:{
+        flex:1,
+        alignItems: 'center',
+        padding: 20,
+        margin: 15,
+        backgroundColor: "rgba(255,163,1,1)",
+        borderRadius: 10,
+        shadowColor: "rgba(0,0,0,1)",
+        shadowOffset: {
+          width: 3,
+          height: 4
+        },
+        elevation: 18,
+        shadowOpacity: 0.25,
+        shadowRadius: 6
+    },
+    category_icon:{
+        color: "rgba(255,255,255,1)",
+        fontSize: 40
+    },
+    category_title:{
+        color: "rgba(255,255,255,1)",
+        fontSize: 16,
+        marginTop: 15,
+    },
     navBar: {
         width: bodyWidth,
         height: 60,
         flexDirection: "row",
+        display: "none"
     },
     navMenuTouch:{
         flex:3,
